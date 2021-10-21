@@ -1,0 +1,145 @@
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
+.landing {
+	position: relative;
+	height: 100vh;
+}
+
+.dark-overlay {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+
+.landing-inner {
+	height: 100%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.landing-inner form {
+	width: 30%;
+}
+
+.landing-inner h1,
+.landing-inner h4,
+.landing-inner p {
+	color: white;
+}
+
+.spinner-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+
+/* Post button */
+.post-button {
+	padding-top: 0;
+	background: transparent;
+	border: none;
+}
+
+.post-button:hover {
+	background: transparent;
+}
+
+a.post-button.btn:focus,
+a.post-button.btn:active {
+	outline: none;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+button.post-button.btn:focus,
+button.post-button.btn:active {
+	outline: none;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/* Floating add button */
+.btn-floating {
+	position: fixed;
+	right: 3rem;
+	bottom: 3rem;
+	background: transparent;
+	border: none;
+}
+
+.btn-floating:hover {
+	background: transparent;
+}
+
+.btn-floating:focus,
+.btn-floating:active {
+	outline: none;
+	background: transparent;
+	border: none;
+	box-shadow: none;
+}
+
+/* Add new post tooltip */
+.tooltip {
+	background: transparent;
+}
+
+.tooltip .arrow::before {
+	border-left-color: #78c2ad;
+}
+
+.tooltip-inner {
+	background: #78c2ad;
+}
+
+/* Post border thicker */
+.border-success,
+.border-warning,
+.border-danger {
+	border-width: 2px;
+}
+
+/* Post title */
+.post-title {
+	margin-bottom: 0.5rem;
+}
+.login-block{
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #252524, #0c0707);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #070707, #030202); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+float:left;
+width:100%;
+padding : 50px 0;
+}
+.banner-sec{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASkAAACpCAMAAABAgDvcAAAANlBMVEUAAADk5OSUlJS5ubna2tpERET19fX7+/vw8PDJycnq6urFxcXY2Nirq6vg4OB2dnZsbGxZWVkSDs2DAAABs0lEQVR4nO3Q223CQAAAwbsAxph3/81GSgHO/iGkmQpWO87bfBzZN9flPLbBv57HuYz56Ypv8Lre1vH4dMU3eN8v2zh+uuIbnH4O06nCqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnKqcqpyqnq79R8vt4n9j3vl22sj+v9h333620dy7xdDuy73OYyzsu6TfZt63L+BfEnHFgHRCwoAAAAAElFTkSuQmCC)  no-repeat left bottom; background-size:cover; min-height:500px; border-radius: 0 10px 10px 0; padding:0;}
+.container{background:#fff; border-radius: 10px; box-shadow:15px 20px 0px rgba(0,0,0,0.1);}
+.carousel-inner{border-radius:0 10px 10px 0;}
+.carousel-caption{text-align:left; left:5%;}
+.login-sec{padding: 50px 30px; position:relative;}
+.login-sec .copy-text{position:absolute; width:80%; bottom:20px; font-size:13px; text-align:center;}
+.login-sec .copy-text i{color:#FEB58A;}
+.login-sec .copy-text a{color:#E36262;}
+.login-sec h2{margin-bottom:30px; font-weight:800; font-size:30px; color: #1a1818;}
+.login-sec h2:after{content:" "; width:100px; height:5px; background:#050302; display:block; margin-top:20px; border-radius:3px; margin-left:auto;margin-right:auto}
+.btn-login{background: #1a0f0f; color:#fff; font-weight:600;}
+.banner-text{width:70%; position:absolute; bottom:40px; padding-left:20px;}
+.banner-text h2{color:#fff; font-weight:600;}
+.banner-text h2:after{content:" "; width:100px; height:5px; background:#FFF; display:block; margin-top:20px; border-radius:3px;}
+.banner-text p{color:#fff;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
